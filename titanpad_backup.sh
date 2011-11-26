@@ -1,6 +1,6 @@
 DOMAIN="ie"
 COOKIES=~/.titanpad_cookies
-LOCATION=~/titanpad/titanpad_backup_pads_$(date "+%Y-%m-%d_%k-%M").zip
+LOCATION=~/titanpad/titanpad_backup_pads_$(date "+%Y-%m-%d").zip
 
 touch $COOKIES
 mkdir -p ~/titanpad
