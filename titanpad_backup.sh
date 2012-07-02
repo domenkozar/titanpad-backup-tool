@@ -24,7 +24,7 @@ wget    --load-cookies ~/.titanpad_cookies \
 rm $COOKIES
 
 # verify zip file
-zip -T "$LOCATION"
+unzip -t "$LOCATION"
 
 # delete older files than a month
 find ~/titanpad/titanpad_backup_pads* -mtime +30 -exec rm {} \;
