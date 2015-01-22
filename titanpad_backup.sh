@@ -8,7 +8,13 @@ COOKIE=~/titanpad/.cookie
 LOCATION=~/titanpad/titanpad_backup_pads_$(date "+%Y-%m-%d").zip
 
 usage() {
-     echo "Usage: $0 -d <subdomain> {-u <user> -p <password> | -a <user-password-file>} [-x]}" 1>&2;
+     echo "Usage: $0 [-hx] -d <subdomain> {-u <user> -p <password> | -a <user-password-file>}" 1>&2;
+     echo "	-h	This usage note"
+     echo "	-x	Delete backups older than 30 days"
+     echo "	-d	Subdomain to backup"
+     echo "	-u	Username"
+     echo "	-p	Password"
+     echo "	-a	File containing Username (first line) and Password (second line)"
      exit 1;
 }
 
