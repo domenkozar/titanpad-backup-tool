@@ -6,6 +6,7 @@ Make backups of a [titanpad](https://github.com/titanpad/titanpad) subdomain.
 * [Usage](#usage)
 * [cronjob](#cronjob)
 * [Authentication](#authentication)
+
 <!-- END-MARKDOWN-TOC -->
 
 ## Usage
